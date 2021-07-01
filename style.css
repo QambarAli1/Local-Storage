@@ -1,0 +1,26 @@
+.biodate input,.biodate select,button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.biodate , button {
+    margin-left: 50px;
+}
+
+button {
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+}
+.main-div{
+    display: flex;
+    flex-direction: row;
+}
+.showData{
+    padding: 20px;
+    margin-left: 40px;
+}

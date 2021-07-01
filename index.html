@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-div">
+    <div>
+        <form class="biodate">
+
+            <div>
+                <label for="Username">Username : </label>
+                <input type="text" placeholder="Username" id="username">
+            </div>
+            <br>
+    
+    
+            <div>
+                <label for="email">Email : </label>
+                <input type="email" placeholder="Email" id="email">
+            </div>
+            <br>
+    
+    
+            <div>
+                <label for="gender">Gender : </label><br>
+                <select name="Male" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <br>
+    
+    
+            <div>
+                <label for="age">Age : </label>
+                <input type="number" placeholder="Age" id="age">
+            </div>
+            <br>
+    
+            <div>
+                <label for="number">Number : </label>
+                <input type="number" placeholder="Number" id="number">
+            </div>
+            <br>
+        </form>
+        <button onclick="storeValues()">Submit</button>
+        <button onclick="getValues()">Get Values</button>
+    </div>
+    
+
+    <div class="showData">
+        <h1 id="userDataHead"></h1>
+        <p id="getUsername"></p>
+        <p id="getEmail"></p>
+        <p id="getGender"></p>
+        <p id="getAge"></p>
+        <p id="getNumber"></p>
+    </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
